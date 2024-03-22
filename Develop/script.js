@@ -9,7 +9,14 @@ const collectEmployees = function() {
 
   let firstName = prompt('enter employee first name');
   let lastName = prompt('enter employee last name');
-  let salary = prompt('enter salary');
+  let salary;
+
+  do{
+      salary = prompt("enter employee salary");
+  }while(isNaN(salary) || salary === "" || salary === null){
+    salary = parseFloat(salary).toFixed;
+    
+  }
 
   let employeesData = {
     firstName: firstName,
@@ -30,9 +37,7 @@ const collectEmployees = function() {
 
   }
   return employeesArray;
-
     
-
 }
 
 // Display the average salary
@@ -41,16 +46,13 @@ const displayAverageSalary = function(employeesArray) {
 
   let average_salary = 0;
   let total_salary = 0;
-  
-  //console.log(employeesArray);
-  //console.log(employeesArray.length);
-
+ 
   for(i = 0; i < employeesArray.length -1; i++){  
     total_salary = total_salary+ parseInt(employeesArray[i].salary);
   }
 
    average_salary = total_salary/employeesArray.length;
-   console.log(`The average employees salary between our $employeesArray.length is ${average_salary}`);
+   console.log(`The average employees salary between our ${employeesArray.length} is $ ${average_salary}`);
   return average_salary;
 
 }
@@ -62,7 +64,9 @@ const getRandomEmployee = function(employeesArray) {
     let randomNumber = '';
     randomNumber = Math.floor(Math.random() * employeesArray.length);
     console.log(randomNumber);
-    console.log(employeesArray[randomNumber]);
+    employeesArray[randomNumber];
+    console.log(`Congratulations to ${employeesArray[randomNumber].firstName} ${employeesArray[randomNumber].lastName} 
+    , our random drawing winner!`);
 
     //console.log(employeesArray[(Math.floor(Math.random() * employeesArray.length))]);
 
