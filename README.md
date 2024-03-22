@@ -8,6 +8,10 @@
 
 following is the screenshot for to get data prompts:
 
+    [<img src="assets/images/prompt_scr.png">](https://github.com/amandeepsandhu13/employee-payroll-tracker/tree/main/)
+
+    [<img src="assets/images/add_another_emp.png">](https://github.com/amandeepsandhu13/employee-payroll-tracker/tree/main/)
+
 
 # There is 'collectEmployees' return employeesArray and it asks for the employee data. then if want add another employee again it will prompt to get another employee data.
 
