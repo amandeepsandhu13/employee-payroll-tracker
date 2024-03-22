@@ -11,15 +11,15 @@ const collectEmployees = function() {
   // Get user input to create and return an array of employee objects
 
   do {
-      firstName = prompt("Enter first name:");
+      firstName = prompt("Enter employee first name:");
   } while (!firstName.trim()); // Continue loop if the input is an empty string or contains only whitespace
 
   do {
-    lastName = prompt("Enter first name:");
+    lastName = prompt("Enter employee last name:");
   } while (!lastName.trim()); // Continue loop if the input is an empty string or contains only whitespace
 
   do{
-        salary = prompt("enter employee salary");
+        salary = prompt("Enter employee salary");
     }while(isNaN(salary) || salary === "" || salary === null){   //accepts salary in numbers only
       salary = parseFloat(salary);    
   }
