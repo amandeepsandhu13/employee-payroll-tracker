@@ -8,7 +8,7 @@ let salary;
 let employeesArray = [];
 const collectEmployees = function() {
 
-  // Get user input to create and return an array of employee objects
+  // Get user input to create and return an array of employee object
 
   do {
       firstName = prompt("Enter employee first name:");
@@ -61,7 +61,7 @@ const displayAverageSalary = function(employeesArray) {
 
     average_salary = total_salary/employeesArray.length;
     console.log(`The average employees salary between our ${employeesArray.length} is $ ${average_salary}`);
-    return average_salary;
+    return parseFloat(average_salary);
 
 }
 
