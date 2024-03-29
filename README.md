@@ -4,15 +4,19 @@
 
 ## Modified the starter code
 
-# When click on the add button it prompts to enter employee first name, last name and salary only in number format.
+## When click on the add button it prompts to enter employee first name, last name and salary only in number format.
 
-following is the screenshot for to get data prompts:
+    Following are the screenshot of the application:
 
-    [<img src="assets/images/prompt_scr.png">](https://github.com/amandeepsandhu13/employee-payroll-tracker/tree/main/)
+    ![screenshot shows prompt to get employee information>](/Assets/images/prompt_scr.png)
 
-    [<img src="assets/images/add_another_emp.png">](https://github.com/amandeepsandhu13/employee-payroll-tracker/tree/main/)
+    ![screenshot shows propmt to add another employee information>](/Assets/images/add_another_emp.png)
 
+    ![screeshot shows added employee data](/Assets/images/display_emp_info.png)
 
+    ![screenshot contains console data to show average salary & draw winner](/Assets/images/console.png)
+
+    
 # There is 'collectEmployees' return employeesArray and it asks for the employee data. then if want add another employee again it will prompt to get another employee data.
 
 # if don't want to add another employee then it will render all the added employees data and displayes in a table.
@@ -26,9 +30,6 @@ following is the screenshot for to get data prompts:
 ## Modified the starter code
 
 # When click on the add button it prompts to enter employee first name, last name and salary only in number format.
-
-following is the screenshot for to get data prompts:
-
 
 # There is 'collectEmployees' return employeesArray and it asks for the employee data. then if want add another employee again it will prompt to get another employee data.
 
