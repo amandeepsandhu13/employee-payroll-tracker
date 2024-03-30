@@ -16,7 +16,7 @@ const collectEmployees = function() {
 
   do {
     lastName = prompt("Enter employee last name:");
-  } while (!lastName.trim()); // Continue loop if the input is an empty string or contains only whitespace
+  } while (!lastName.trim); // Continue loop if the input is an empty string or contains only whitespace
 
   do{
         salary = prompt("Enter employee salary");
@@ -72,7 +72,7 @@ const getRandomEmployee = function(employeesArray) {
 
     let randomNumber = '';
     randomNumber = Math.floor(Math.random() * employeesArray.length);
-    console.log(randomNumber);
+    //console.log(randomNumber);
     employeesArray[randomNumber];
     console.log(`Congratulations to ${employeesArray[randomNumber].firstName} ${employeesArray[randomNumber].lastName} 
     , our random drawing winner!`);
